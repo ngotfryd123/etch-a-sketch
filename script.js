@@ -10,12 +10,11 @@ let grid = document.createElement('table');
             for (let i=0; i<y; i++){
             let cell = row.insertCell(i);
             let cellDivs = document.createElement('div');
-            cellDivs.textContent="x";
-            cellDivs.setAttribute('style', 'color: blue; background: red;'); 
+            cellDivs.setAttribute('style', 'background: white;');
+            cellDivs.addEventListener("mouseover", (event) => {cellDivs.style.background = "green";});
             cell.appendChild(cellDivs);}
     }
 }
-
 let num1=16;
 let num2=16;
     createGrid(num1,num2);

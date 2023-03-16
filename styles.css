@@ -4,3 +4,13 @@ body{
     justify-content: center;
     align-items: center;
 }
+table{
+    border-spacing: 0px;
+}
+div{
+    min-height: 10px;
+    min-width: 10px;
+}
+td{
+    border:solid black 0.5px;
+}
