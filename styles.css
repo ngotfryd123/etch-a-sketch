@@ -6,11 +6,32 @@ body{
 }
 table{
     border-spacing: 0px;
+    min-height: 400px;
+    min-width: 400px;
+    display: flex;
 }
 div{
-    min-height: 10px;
-    min-width: 10px;
+    min-height: 1px;
+    min-width: 1px;
+    display:flex;
+    flex:1;
+    
 }
 td{
     border:solid black 0.5px;
+    display: flex;
+    flex:1;
+    padding:0;
+}
+tbody{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+tr{
+    display: flex;
+    flex:1;
+}
+#container{
+    flex:none;
 }

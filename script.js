@@ -15,6 +15,6 @@ let grid = document.createElement('table');
             cell.appendChild(cellDivs);}
     }
 }
-let num1=16;
-let num2=16;
+let num1=10;
+let num2=10;
     createGrid(num1,num2);
