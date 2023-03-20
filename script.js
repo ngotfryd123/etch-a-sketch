@@ -1,6 +1,7 @@
+const container = document.querySelector('#container');
+
 function createGrid(x,y){
 
-const container = document.querySelector('#container');
 let grid = document.createElement('table');
 
     for (let i=0;i<x;i++){   
@@ -15,6 +16,14 @@ let grid = document.createElement('table');
             cell.appendChild(cellDivs);}
     }
 }
+function eraseChildren(element){
+    element.replaceChildren();
+    let ask = prompt("Enter a number up to 100 to set up a new grid: ");
+    createGrid(ask,ask);
+}
+
 let num1=10;
 let num2=10;
     createGrid(num1,num2);
+    
+
