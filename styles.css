@@ -2,12 +2,13 @@ body{
     height:100vh;
     display: flex;
     justify-content: center;
-    align-items: center;}
-    
+    align-items: center;
+    flex-direction: column;}
+
 table{
     border-spacing: 0px;
     min-height: 400px;
-    min-width: 400px;
+    min-width: 500px;
     display: flex;}
 
 div{
@@ -22,7 +23,29 @@ tbody{
     flex-direction: column;}
 
 #container{
-    flex:none;}
+    flex:none;
+    width: 700px;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    background: red;
+    border-radius: 5%;}
 
 tr,tbody,td,div{display:flex;
 flex:1;}
+
+#bottom-buttons{
+    flex:none;
+    margin-top: -95px;}
+button{
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+#middle{
+    border-radius: 0;
+    margin-top: 40px;
+    height: 25px;
+}

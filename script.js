@@ -12,7 +12,7 @@ let grid = document.createElement('table');
             let cell = row.insertCell(i);
             let cellDivs = document.createElement('div');
             cellDivs.setAttribute('style', 'background: white;');
-            cellDivs.addEventListener("mouseover", (event) => {cellDivs.style.background = "green";});
+            cellDivs.addEventListener("mouseover", (event) => {cellDivs.style.background = "black";});
             cell.appendChild(cellDivs);}
     }
 }
