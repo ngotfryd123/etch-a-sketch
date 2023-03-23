@@ -16,11 +16,12 @@ div{
     min-width: 1px;}
 
 td{
-    border:solid black 0.5px;
+    border:solid #746565 0.5px;
     padding:0;}
 
 tbody{
-    flex-direction: column;}
+    flex-direction: column;
+    background-color: white;}
 
 #container{
     flex:none;

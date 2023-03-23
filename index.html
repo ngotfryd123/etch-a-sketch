@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>etch-a-sketch</title>
     <script src="script.js" defer></script>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <img src="ScSzKffkztNcNwc.png" style="width: 400px; position: absolute; top: 82px;">
+    <img src="ScSzKffkztNcNwc.png" style="width: 400px; position: absolute; top: 110px;">
     <div id="container"></div>
     <div id="bottom-buttons">
-    <button>Color</button>
-    <button id="middle" onclick = "eraseChildren(container)" > New Grid </button>
-    <button>Shading</button>
+    <button onclick="userChoice('random')">Color</button>
+    <button id="middle" onclick = "clearGrid(container);userChoice('black')" > Clear </button>
+    <button onclick="userChoice('opaque')">Shading</button>
     </div>
 </body>
 </html>
